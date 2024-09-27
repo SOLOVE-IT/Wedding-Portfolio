@@ -14,9 +14,9 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary custom-bg">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary custom-bg fixed-top ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Just Travel</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,48 +28,31 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <a class="nav-link active" aria-current="page" href="#About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
                         </li>
+
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
     </header>
 
+
     <main>
-        <h1 class="text-warning text-center text-primary text-opacity-50">Just Travel Agency </h1>
 
         <!-- Carousel -->
         <section>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAATGQ70FjbXCegdSrz9MJGQ9F7MDreRj15Q&s"
+                        <img src="https://thumbs.dreamstime.com/b/airplane-sky-sunrise-38766908.jpg"
                             class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT36obHtlVDtraeLyyikc89XTNits_2hJ0gOQ&s"
+                        <img src="https://t4.ftcdn.net/jpg/04/15/79/09/360_F_415790935_7va5lMHOmyhvAcdskXbSx7lDJUp0cfja.jpg"
                             class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
@@ -95,8 +78,8 @@
         <!-- About Us Page -->
         <section id="About">
             <div>
-                <div class="container px-4 py-5" id="custom-cards">
-                    <h2 class="pb-2 border-bottom">About Us</h2>
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h2 class="pb-2 border-bottom text-center">About Us</h2>
 
                     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                         <div class="col">
@@ -115,13 +98,13 @@
                                             <svg class="bi me-2" width="1em" height="1em">
                                                 <use xlink:href="#geo-fill"></use>
                                             </svg>
-                                            <small>Earth</small>
+                                            <small>Bermuda</small>
                                         </li>
                                         <li class="d-flex align-items-center">
                                             <svg class="bi me-2" width="1em" height="1em">
                                                 <use xlink:href="#calendar3"></use>
                                             </svg>
-                                            <small>3d</small>
+                                            <!-- <small>3d</small> -->
                                         </li>
                                     </ul>
                                 </div>
@@ -132,7 +115,7 @@
                             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                                 style="background-image: url('https://media.istockphoto.com/id/1489566726/photo/leopard-in-sri-lanka.jpg?s=612x612&w=0&k=20&c=kIHqKhwO_JCq94l7yg8zkZuY-v-BbiaaRxr-giy97w4=');">
                                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">"Epic Wildlife Adventure" </h3>
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Epic Wildlife Adventure</h3>
                                     <ul class="d-flex list-unstyled mt-auto">
                                         <li class="me-auto">
                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIHbF5gxjkAF8-gBueRHzKuHGxAyLsIa38A&s"
@@ -143,13 +126,15 @@
                                             <svg class="bi me-2" width="1em" height="1em">
                                                 <use xlink:href="#geo-fill"></use>
                                             </svg>
-                                            <small>Pakistan</small>
+                                            <small>
+                                                Costa Rica
+                                            </small>
                                         </li>
                                         <li class="d-flex align-items-center">
                                             <svg class="bi me-2" width="1em" height="1em">
                                                 <use xlink:href="#calendar3"></use>
                                             </svg>
-                                            <small>4d</small>
+                                            <!-- <small>4d</small> -->
                                         </li>
                                     </ul>
                                 </div>
@@ -172,13 +157,13 @@
                                             <svg class="bi me-2" width="1em" height="1em">
                                                 <use xlink:href="#geo-fill"></use>
                                             </svg>
-                                            <small>California</small>
+                                            <small>Global</small>
                                         </li>
                                         <li class="d-flex align-items-center">
                                             <svg class="bi me-2" width="1em" height="1em">
                                                 <use xlink:href="#calendar3"></use>
                                             </svg>
-                                            <small>5d</small>
+                                            <!-- <small>5d</small> -->
                                         </li>
                                     </ul>
                                 </div>
@@ -190,38 +175,112 @@
         </section>
 
         <!-- COntact Us -->
-        <section>
+        <section id="Contact">
             <div>
 
-            </div>
-        </section>
+                <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+                    <symbol id="check" viewBox="0 0 16 16">
+                        <title>Check</title>
+                        <path
+                            d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z">
+                        </path>
+                    </symbol>
+                </svg>
 
+                <div class="container py-3">
+                    <header>
+
+
+                        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                            <h1 class="pb-2 border-bottom">Contact Us</h1>
+                        </div>
+                    </header>
+
+                    <main>
+                        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                            <div class="col">
+                                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                    <div class="card-header py-3 text-bg-primary border-primary">
+                                        <h4 class="my-0 fw-normal fst-italic">Telephone Number</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="card-title pricing-card-title">+234 6786 6797</h2>
+                                        <h2 class="card-title pricing-card-title">+234 6786 6797</h2>
+                                        <h2 class="card-title pricing-card-title">+234 6786 6797</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                    <div class="card-header py-3 text-bg-primary border-primary">
+                                        <h4 class="my-0 fw-normal fst-italic">Address</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="card-title pricing-card-title">...</h2>
+                                        <h2 class="card-title pricing-card-title">No. 1, Street 1</h2>
+                                        <h2 class="card-title pricing-card-title">...</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                    <div class="card-header py-3 text-bg-primary border-primary">
+                                        <h4 class="my-0 fw-normal fst-italic">E-mail</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="card-title pricing-card-title">...</h2>
+                                        <h2 class="card-title pricing-card-title">example@gmail.com</h2>
+                                        <h2 class="card-title pricing-card-title">...</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                </div>
     </main>
 
-
-    <div>
-        <footer class="d-flex flex-wrap justify-content-between align-items-center p-4 my-4 border-top footer-bg">
-            <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
-
-            <a href="/"
-                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a>
-
-            <ul class="nav col-md-4 justify-content-end">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-            </ul>
-        </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+
+
+    <div id="studygpt-root"></div>
+</body>
+
+</div>
+</section>
+
+</main>
+
+
+<div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center p-4 my-4 border-top footer-bg">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+
+        <a href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
